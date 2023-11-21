@@ -1,0 +1,15 @@
+@import './reset';
+@import 'variables/global';
+@import 'themes/light';
+@import 'themes/dark';
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  height: 100vh;
+}
