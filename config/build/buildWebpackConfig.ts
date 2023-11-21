@@ -14,6 +14,14 @@ export function buildWebpackConfig(options: buildOptions): webpack.Configuration
     },
     resolve: {
       extensions: ['.tsx', '.ts', '.js'],
+      preferAbsolute: true,
+      modules: [
+        path.src,
+        'node_modules'
+      ],
+      alias: {
+        "@": path.src,
+      }
     },
     plugins: buildPlugins(path.html),
     output: {
