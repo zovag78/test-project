@@ -1,0 +1,28 @@
+.themeBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.showActive {
+  margin: 0 6px;
+  display: inline-flex;
+  transition: all 0.3s ease-in-out;
+}
+.themeDark {
+  transform: rotate(180deg);
+}
+.themeLight {
+  transform: rotate(0deg);
+}
+
+.active {
+  color: var(--switch-theme-text-active);
+}
+
+.light {
+  background-color: var(--switch-theme-bg-color);
+  color: var(--switch-theme-text-color);
+}

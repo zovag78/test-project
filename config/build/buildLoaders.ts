@@ -30,9 +30,19 @@ export function buildLoaders(options: buildOptions): webpack.RuleSetRule[] {
     test: /\.tsx?$/,
     use: 'ts-loader',
     exclude: /node_modules/,
+  };
+
+  const fileLoader = {
+    test: /\.(png|jpe?g|gif)$/i,
+    use: [
+      {
+        loader: 'file-loader',
+      },
+    ],
   }
     return [
         typescriptLoader,
         cssLoaders,
+        fileLoader
     ];
 }

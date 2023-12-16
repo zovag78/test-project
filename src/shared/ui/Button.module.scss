@@ -1,0 +1,8 @@
+.button {
+  display: inline-flex;
+  padding: 4px 8px;
+}
+.primary {
+  background-color: var(--button-primary-bg-color);
+  color: var(--button-primary-text-color);
+}

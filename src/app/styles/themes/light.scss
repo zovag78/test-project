@@ -1,7 +1,24 @@
-.app.dark {
+.app.light {
   --main-bg-color: #ffffff;
+  --main-gradDark: hsl(144, 100%, 89%);
+  --main-gradLight: hsl(42, 94%, 76%);
   --secondary-bg-color: #c6c6c6;
 
   --main-text-color: #191919;
   --secondary-text-color: #454545;
+
+  --navbar-bg-color: #d9ebc8;
+  --applink-text-color: #1c1c1c;
+  --applink-text-color-hover: #313131;
+  --applink-text-color-active: #000000;
+
+  --switch-theme-bg-color: rgb(241, 247, 209);
+  --switch-theme-bg-color-hover: rgb(240, 249, 189);
+  --switch-theme-text-color: rgb(28, 29, 28);
+  --switch-theme-text-active: #7489ff;
+
+  --button-primary-bg-color: #aa7ff6;
+  --button-primary-bg-color-hover: #8460d2;
+  --button-primary-bg-color-active: #6b44be;
+  --button-primary-text-color: #1d1d1d;
 }

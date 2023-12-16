@@ -1,0 +1,15 @@
+.link {
+  font-size: var(--font-size-md);
+  color: var(--applink-text-color);
+  padding: 3px 8px;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--applink-text-color-hover);
+  }
+
+  &:active {
+    text-decoration: none;
+    color: var(--applink-text-color-active);
+  }
+}
