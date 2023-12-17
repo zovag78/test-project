@@ -11,9 +11,11 @@
   display: inline-flex;
   transition: all 0.3s ease-in-out;
 }
+
 .themeDark {
   transform: rotate(180deg);
 }
+
 .themeLight {
   transform: rotate(0deg);
 }

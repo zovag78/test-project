@@ -1,7 +1,7 @@
 .app.dark {
-  --main-bg-color: #000000;
-  --main-gradDark: hsl(198, 44%, 11%);
-  --main-gradLight: hsl(198, 39%, 29%);
+  --main-bg-color: #000;
+  --main-grad-dark: rgb(16, 33, 40);
+  --main-grad-light: rgb(45, 85, 103);
   --secondary-bg-color: #3e3e3e;
 
   --main-text-color: #f5f5f5;
@@ -10,7 +10,7 @@
   --navbar-bg-color: #14393d;
   --applink-text-color: #ededed;
   --applink-text-color-hover: #dedede;
-  --applink-text-color-active: #ffffff;
+  --applink-text-color-active: #fff;
 
   --switch-theme-bg-color: rgb(6, 31, 2);
   --switch-theme-bg-color-hover: rgb(4, 36, 14);
@@ -20,5 +20,5 @@
   --button-primary-bg-color: #7831f3;
   --button-primary-bg-color-hover: #5e24d9;
   --button-primary-bg-color-active: #470fc0;
-  --button-primary-text-color: #ffffff;
+  --button-primary-text-color: #fff;
 }

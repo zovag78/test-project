@@ -8,14 +8,16 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: linear-gradient(to bottom, var(--main-gradDark), var(--main-gradLight));;
+  background: linear-gradient(to bottom, var(--main-grad-dark), var(--main-grad-light));;
   color: var(--main-text-color);
   height: 100vh;
 }
+
 .page-wrapper {
   display: flex;
   width: 100%;
 }
+
 .content-wrap {
   flex-grow: 1;
   padding: 12px;

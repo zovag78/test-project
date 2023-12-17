@@ -1,7 +1,7 @@
 .app.light {
-  --main-bg-color: #ffffff;
-  --main-gradDark: hsl(144, 100%, 89%);
-  --main-gradLight: hsl(42, 94%, 76%);
+  --main-bg-color: #fff;
+  --main-grad-dark: rgb(199, 255, 221);
+  --main-grad-light: rgb(251, 217, 136);
   --secondary-bg-color: #c6c6c6;
 
   --main-text-color: #191919;
@@ -10,7 +10,7 @@
   --navbar-bg-color: #d9ebc8;
   --applink-text-color: #1c1c1c;
   --applink-text-color-hover: #313131;
-  --applink-text-color-active: #000000;
+  --applink-text-color-active: #000;
 
   --switch-theme-bg-color: rgb(241, 247, 209);
   --switch-theme-bg-color-hover: rgb(240, 249, 189);
